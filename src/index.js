@@ -1,15 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
-const App = () => {
-    return(
-        <div>
-            Hello World!
-        </div>
-    )
-}
-
-ReactDOM.render(
-    <App/>,
-    document.querySelector('#root')
-)
+import './Hemisphere.css';
+import northernPic from './image/NorthernHemisphere.jpg';
+import southernPic from './image/SouthernHemisphere.jpg';
